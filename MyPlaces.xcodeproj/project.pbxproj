@@ -16,6 +16,9 @@
 		5CD011D12427EE3F00C7A9BE /* MyPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD011D02427EE3F00C7A9BE /* MyPlacesTests.swift */; };
 		5CD011DC2427EE3F00C7A9BE /* MyPlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD011DB2427EE3F00C7A9BE /* MyPlacesUITests.swift */; };
 		5CD011EA2427F20F00C7A9BE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD011E92427F20F00C7A9BE /* MainViewController.swift */; };
+		5CD011EC2429416200C7A9BE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD011EB2429416200C7A9BE /* CustomTableViewCell.swift */; };
+		5CD011EE2429480200C7A9BE /* PlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD011ED2429480200C7A9BE /* PlacesModel.swift */; };
+		5CD011F2242B83F700C7A9BE /* NewPlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD011F1242B83F700C7A9BE /* NewPlaceTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		5CD011DB2427EE3F00C7A9BE /* MyPlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlacesUITests.swift; sourceTree = "<group>"; };
 		5CD011DD2427EE3F00C7A9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CD011E92427F20F00C7A9BE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5CD011EB2429416200C7A9BE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5CD011ED2429480200C7A9BE /* PlacesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesModel.swift; sourceTree = "<group>"; };
+		5CD011F1242B83F700C7A9BE /* NewPlaceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				5CD011B62427EE3E00C7A9BE /* AppDelegate.swift */,
 				5CD011B82427EE3E00C7A9BE /* SceneDelegate.swift */,
 				5CD011E92427F20F00C7A9BE /* MainViewController.swift */,
+				5CD011ED2429480200C7A9BE /* PlacesModel.swift */,
+				5CD011EB2429416200C7A9BE /* CustomTableViewCell.swift */,
+				5CD011F1242B83F700C7A9BE /* NewPlaceTableViewController.swift */,
 				5CD011BC2427EE3E00C7A9BE /* Main.storyboard */,
 				5CD011C22427EE3F00C7A9BE /* Assets.xcassets */,
 				5CD011C42427EE3F00C7A9BE /* LaunchScreen.storyboard */,
@@ -263,9 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CD011B72427EE3E00C7A9BE /* AppDelegate.swift in Sources */,
+				5CD011EC2429416200C7A9BE /* CustomTableViewCell.swift in Sources */,
 				5CD011B92427EE3E00C7A9BE /* SceneDelegate.swift in Sources */,
 				5CD011C12427EE3E00C7A9BE /* MyPlaces.xcdatamodeld in Sources */,
 				5CD011EA2427F20F00C7A9BE /* MainViewController.swift in Sources */,
+				5CD011EE2429480200C7A9BE /* PlacesModel.swift in Sources */,
+				5CD011F2242B83F700C7A9BE /* NewPlaceTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
