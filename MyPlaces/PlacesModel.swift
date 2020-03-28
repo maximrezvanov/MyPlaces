@@ -6,28 +6,20 @@
 //  Copyright © 2020 MaximRezvanov. All rights reserved.
 //
 
-import UIKit
+import RealmSwift
 
-struct PlacesModel{
+class PlacesModel: Object {
     
-    var name: String
-    var location: String?
-    var type: String?
-    var image: UIImage?
-    var RestaurantImage: String?
+    @objc dynamic var name: String = ""
+    @objc dynamic var location: String?
+    @objc dynamic var type: String?
+    @objc dynamic var imageData: Data?
     
-    static let restaurantNames = ["Burger Heroes", "Kitchen", "Bonsai", "Дастархан", "Индокитай", "X.O", "Балкан Гриль", "Sherlock Holmes", "Speak Easy", "Morris Pub", "Вкусные истории", "Классик", "Love&Life", "Шок", "Бочка"]
-
-    
-    static func getPlaces() -> [PlacesModel] {
-        
-        var places = [PlacesModel]()
-        
-        for place in restaurantNames {
-            places.append(PlacesModel(name: place, location: "Kerch", type: "Fast-Food", image: nil, RestaurantImage: place))
-        }
-        
-        
-        return places
+    convenience init (name: String, location: String?, type: String?, imageData: Data?){
+        self.init()
+        self.name = name
+        self.location = location
+        self.type = type
+        self.imageData = imageData
     }
 }
